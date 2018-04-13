@@ -1,0 +1,24 @@
+TEST CASES
+--> Equivalence Partitioning <--
+Test data	Expected result	Actual result	Status
+-8.33		Error		undefined	Fracasado
+45.66		N		N		Pass
+53.43		P		P		Pass
+71.33		C		C		Pass
+78.06		D		D		Pass
+99.99		HD		HD		Pass
+134.44		Error		undefined	Fracasado
+--> Boundary Value Analysis <--
+Test data	Expected result	Actual result	Status
+-0.01		Error		undefined	Fracasado
+0.00		N		undefined	Fracasado
+49.99		N		N		Pass
+50.00		P		P		Pass
+62.99		P		P		Pass
+63.00		C		C		Pass
+72.99		C		C		Pass
+73.00		D		D		Pass
+82.99		D		D		Pass
+83.00		HD		HD		Pass
+100.00		HD		HD		Pass
+100.01		Error		undefined	Fracasado
